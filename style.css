@@ -1,0 +1,225 @@
+:root {
+    --bgColor:rgb(255,255,243);
+    #--structColor:rgb(128,180,128);
+    --structColor:rgb(0,128,128);
+    #--alertColor:rgb(164,100,164);
+    --alertColor:rgb(180,70,90);
+    --textColor:rgb(64,64,64);
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    font-size: 14px;
+    font-family: Trebuchet MS, serif;
+    white-space: nowrap;
+    margin: 0px 0px 0px 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h1 {
+    color: var(--alertColor);
+    font-size: 4.8em;
+}
+
+h2 {
+    color: var(--alertColor);
+    font-size: 2.8em;
+}
+
+h3 {
+    color: var(--structColor);
+    font-size: 1.5em;
+}
+
+h4 {
+    color: var(--bgColor);
+    font-size: 2.8em;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+p {
+    margin: 8px 0px 8px 0px;
+    padding: 0px 0px 0px 16px;
+}
+
+dt {
+    margin-top: 16px;
+    font-weight: bold;
+}
+dd {
+    margin-left: 16px;
+}
+
+
+ul {
+    margin: 8px 0px 8px 0px;
+}
+
+
+a {
+    color: var(--structColor);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.anchor {
+    height: 0px;
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
+}
+
+
+
+nav{
+    background-color: var(--bgColor);
+    text-align: center;
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    height: 40px;
+    top: 70px;
+    left: 242px;
+    right: 0px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    margin: 0px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding: 0px 0px 0px 0px;
+}
+ 
+nav li{
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+} 
+ 
+nav a{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+} 
+
+nav a:hover{
+    background-color: var(--structColor);
+    color: var(--bgColor);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+
+main {
+    # background-color: var(--bgColor);
+    text-align: left;
+    white-space: normal;
+
+    left: 242px;
+    right: 0px;
+    top: 110px;
+    bottom: 0px;
+    
+    padding-top: 110px;
+    padding-left: 258px;
+    padding-right: 16px;
+    padding-bottom: 4px;
+
+    margin: 0px 0px 0px 0px;
+    
+}
+
+header {
+    background-color: var(--bgColor);
+    text-align: center;
+    position: fixed;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    height: 70px;
+    top: 0px;
+    left: 242px;
+    right: 0px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+     margin: 0px 0px 0px 0px;
+}
+
+
+footer {
+    background-color: var(--structColor);
+    color: rgb(255,255,243);
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+
+    width: 242px;
+    bottom: 0px;
+    left: 0px;
+
+    padding: 0px 0px 4px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+aside {
+    background-color: var(--structColor);
+    position: fixed;
+    overflow: scroll;
+    
+    width: 210px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+
+    padding-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+
+section {
+    padding: 0px 0px 16px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
