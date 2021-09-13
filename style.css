@@ -1,7 +1,7 @@
 :root {
     --bgColor:rgb(255,255,243);
     #--structColor:rgb(128,180,128);
-    --structColor:rgb(0,128,128);
+    --structColor:rgb(128,180,128);
     #--alertColor:rgb(164,100,164);
     --alertColor:rgb(180,70,90);
     --textColor:rgb(64,64,64);
@@ -201,9 +201,9 @@ aside {
     overflow: scroll;
     
     width: 210px;
-    top: 0px;
+    top: 200px;
     left: 0px;
-    bottom: 50px;
+    bottom: 200px;
 
     padding-top: 0px;
     padding-left: 16px;
