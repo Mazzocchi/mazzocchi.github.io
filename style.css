@@ -210,13 +210,13 @@ aside {
     padding-right: 16px;
     padding-bottom: 232px;
     
-    margin: 0px 0px 0px 0px;
+    margin: -200px 200px 0px 0px;
 }
 
 
 section {
     padding: 0px 0px 16px 0px;
-    margin: -200px 200px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 
