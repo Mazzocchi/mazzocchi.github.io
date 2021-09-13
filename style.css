@@ -1,7 +1,7 @@
 :root {
     --bgColor:rgb(255,255,243);
     #--structColor:rgb(128,180,128);
-    --structColor:rgb(128,180,128);
+    --structColor:rgb(0,128,128);
     #--alertColor:rgb(164,100,164);
     --alertColor:rgb(180,70,90);
     --textColor:rgb(64,64,64);
@@ -205,10 +205,10 @@ aside {
     left: 0px;
     bottom: 200px;
 
-    padding-top: 0px;
+    padding-top: 200px;
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 32px;
+    padding-bottom: 232px;
 }
 
 
