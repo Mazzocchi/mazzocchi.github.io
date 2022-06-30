@@ -182,7 +182,7 @@ header {
 
 footer {
     background-color: var(--structColor);
-    color: rgb(255,255,243);
+    color: ver(--bgColor);
     position: fixed;
     overflow: hidden;
     text-align: center;
