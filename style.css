@@ -181,7 +181,7 @@ header {
 
 
 footer {
-    background-color: var(--structColor);
+    background-color: var(--extraColor);
     color: var(--bgColor);
     position: fixed;
     overflow: hidden;
