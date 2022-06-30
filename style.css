@@ -1,7 +1,8 @@
 :root {
     --bgColor:#EBE7E0;
     #ORIGINAL--structColor:#B2AC9F;
-    --structColor:#999180;
+    #GOOD--structColor:#999180;
+    --structColor:#998280;
     --alertColor:#44749D;
     --extraColor:#C6D4E1;
     --textColor:#404040;
