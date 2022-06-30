@@ -2,7 +2,7 @@
     --bgColor:#EBE7E0;
     --structColor:#BDB8AD;
     --alertColor:#44749D;
-    #--extraColor:#C6D4E1;
+    --extraColor:#C6D4E1;
     --textColor:rgb(64,64,64);
 }
 
@@ -197,7 +197,7 @@ footer {
 
 
 aside {
-    background-color: var(--structColor);
+    background-color: var(--extraColor);
     position: fixed;
     overflow: scroll;
     
